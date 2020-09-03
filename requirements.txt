@@ -1,0 +1,36 @@
+Requirements
+1. pip install tkinter
+2. pip install openpyxl
+3. pip install requests
+
+python version: Python 3.7.8
+
+Notes:
+1. You can add your own api key on line 26. 
+2. Create Api key at https://weatherstack.com/.
+3. Dont open xlsx file when proecss is running.
+4. After pressing stop button it will automatically load data in xlsx File.
+
+For WeatherApp 2.0:
+Requirements
+1. pip install tkinter
+2. pip install openpyxl
+3. pip install requests
+4. pip install xlrd
+
+Notes:
+1. For This App We have To create Weather.xlsx File With. 
+[A1] =City Names
+[B1] = Temp 
+[C1] = Unit
+[D1] = Update
+
+2. In A1 Row of City Names Add some City.
+3. B1 Row of Temp Keep Blank.
+4. For C1 Row Unit Type 'C' For To Get Temperature Value In Degree or Type 'F'  To Get Temperature Value In Farenheit.
+5. For D1 Update Row If You Type '1' It Will Update The Temperature for Respected City or 
+If You Type '0' It Will Not Update The Temperature for Respected City And Directly for Next City.
+6. In Line 5 And 7 Provide The Same path with Filename 'Weather.xlsx' Where Your Project Located.
+7. You can add your own api key on line 33 And 49. 
+8. Create Api key at https://weatherstack.com/.
+9. Dont open xlsx file when proecss is running.
