@@ -19,7 +19,6 @@ update_row = 2
 update_column = 4
 unit_row = 2
 unit_column = 3
-x = 1
 
 def run():
     print('Process Has Been Started................')
